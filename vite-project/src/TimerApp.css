@@ -1,0 +1,78 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.buttons button.active {
+    background-color: #8e44ad;
+    color: #fff;
+    border: 1px solid #8e44ad;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+    color: #2d2350;
+}
+
+.stopwatch-btns, .timer-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.stopwatch-btns button, .timer-btns button {
+    background-color: #1aac61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.timer-btns .start {
+    background-color: #e74c3c;
+}
+
+.timer-btns .stop {
+    background-color: #8e44ad;
+}
+
+.timer-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.timer-inputs input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
